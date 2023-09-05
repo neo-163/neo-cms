@@ -61,7 +61,6 @@ RABBITMQ_QUEUE=test_task
 
 ## 後臺頁面demo
 ![](https://github.com/neo-163/neo-cms/blob/main/project-admin/public/admin/images/20220914183929.png?raw=true)
-s
 
 ## License
 
