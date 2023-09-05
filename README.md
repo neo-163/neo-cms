@@ -59,6 +59,10 @@ RABBITMQ_QUEUE=test_task
 
 由于vue-element-admin的安装包node_modules下载时容易出现问题，所以开放了一个测试可行的[node_modules安装包](https://github.com/neo-163/node_modules-vue-element-admin)。
 
+## 后台页面demo
+![](https://github.com/neo-163/neo-cms/blob/main/project-admin/public/admin/images/20220914183929.png?raw=true)
+s
+
 ## License
 
 Neo，协议 [MIT license](https://opensource.org/licenses/MIT).
