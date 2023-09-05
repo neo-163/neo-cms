@@ -1,21 +1,21 @@
-## Neo CMS集成技术
+## Neo CMS集成技術
 
 Redis <br/>
 RabbitMQ <br/>
 Workerman <br/>
 OSS <br/>
 
-## 分布式部署
+## 分佈式部署
 
-Neo CMS高并发场景下，可以进行分布式部署：<br/>
-服务器1 - web端页面站点 + CDN<br/>
-服务器2 - cms端页面站点 + CDN<br/>
-服务器3 - 后端主系统 + OSS/COS<br/>
-服务器4 - RabbitMQ消息队列<br/>
-MySQL和Redis使用云数据库<br/>
+Neo CMS高併發場景下，可以進行分佈式部署：<br/>
+服務器1 - web端頁面網站+ CDN<br/>
+服務器2 - cms端頁面網站+ CDN<br/>
+服務器3 -後端主系統+ OSS/COS<br/>
+服務器4 - RabbitMQ消息隊列<br/>
+MySQL和Redis使用Cloud Database<br/>
 
 <br/>
-后续可能推出更多中间件功能满足扩展项目需求
+後續可能推出更多中介軟體功能滿足擴展項目需求
 
 ## Laravel .env文件配置
 
@@ -27,10 +27,10 @@ cp .env.example .env
 
 
 ```
-# 后台token key
-TOKENKEY="随便写"
+# 後臺token key
+TOKENKEY="隨便寫"
 
-# 阿里云OSS
+# 阿里雲OSS
 OSS_MEDIA_URL="XXX"
 OSS_ACCESS_KEY="XXX"
 OSS_SECRET_KEY="XXX"
@@ -38,30 +38,34 @@ OSS_ENDPOINT="XXX"
 OSS_BUCKET="XXX"
 OSS_IS_CNAME=true
 
-# 默认队列驱动名称
+# 默認隊列驅動名稱
 #QUEUE_DRIVER=database
 QUEUE_DRIVER=rabbitmq
 
 RABBITMQ_HOST=XXX.XXX.XXX.XXX
 # RabbitMQ的端口
 RABBITMQ_PORT=5672
-# 通过15672创建的RabbitMQ虚拟主机名，默认是'/'
+# 通過15672創建的RabbitMQ虛擬主機名稱，默認是'/'
 RABBITMQ_VHOST=test
-# RabbitMQ的登录名称
+# RabbitMQ的登錄名稱
 RABBITMQ_USER=username
-# RabbitMQ的密码
+# RabbitMQ的密碼
 RABBITMQ_PASSWORD=password
-# 通过15672创建的RabbitMQ队列名称
+# 通過15672創建的RabbitMQ隊列名稱
 RABBITMQ_QUEUE=test_task
 ```
 
-## vue-element-admin安装包
+## vue-element-admin安裝包
 
-由于vue-element-admin的安装包node_modules下载时容易出现问题，所以开放了一个测试可行的[node_modules安装包](https://github.com/neo-163/node_modules-vue-element-admin)。
+由於vue-element-admin的安裝包node_modules下載時容易出現問題，所以開放了一個測試可行的[node_modules安裝包](https://github.com/neo-163/node_modules-vue-element-admin)。
+
+## 後臺頁面demo
+![](https://github.com/neo-163/neo-cms/blob/main/project-admin/public/admin/images/20220914183929.png?raw=true)
+s
 
 ## License
 
-Neo，协议 [MIT license](https://opensource.org/licenses/MIT).
+Neo，協議 [MIT license](https://opensource.org/licenses/MIT).
 
 ## Vue project setup
 ```
