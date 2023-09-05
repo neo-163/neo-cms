@@ -63,6 +63,10 @@ RABBITMQ_QUEUE=test_task
 ![](https://github.com/neo-163/neo-cms/blob/main/project-admin/public/admin/images/20220914183929.png?raw=true)
 s
 
+## 后台页面demo
+![](https://github.com/neo-163/neo-cms/blob/main/project-admin/public/admin/images/20220914183929.png?raw=true)
+s
+
 ## License
 
 Neo，協議 [MIT license](https://opensource.org/licenses/MIT).
