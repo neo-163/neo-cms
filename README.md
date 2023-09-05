@@ -64,7 +64,7 @@ RABBITMQ_QUEUE=test_task
 
 ## License
 
-Neo，協議 [MIT license](https://opensource.org/licenses/MIT).
+Neo CMS協議：[MIT license](https://opensource.org/licenses/MIT).
 
 ## Vue project setup
 ```
